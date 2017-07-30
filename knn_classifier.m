@@ -8,7 +8,7 @@ for i = 1:size(tx,1)
 end
 
 % Now sort the distances in ascending order. Nearest Neighbor's index will
-% be saved in indices.
+% be saved in indices.%
 [sorted_distances, indices] = sort(dist);
 
 % get the number of distinct classes to which a given input can belong to.
